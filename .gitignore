@@ -1,0 +1,48 @@
+ECHO is on.
+# Flutter/Dart related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+ios/Flutter/flutter_export_environment.sh
+ios/Flutter/Flutter.podspec
+ios/Flutter/AppFrameworkInfo.plist
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Android related
+android/.gradle/
+android/build/
+android/app/build/
+android/app/release/
+android/app/debug/
+android/local.properties
+android/key.properties
+
+# iOS related
+ios/.symlinks/
+ios/Flutter/App.framework
+ios/Flutter/Flutter.framework
+ios/Flutter/Generated.xcconfig
+ios/Pods/
+ios/Podfile.lock
+ios/Runner.xcworkspace/
+ios/Runner/Info.plist
+ios/Runner.xcodeproj/project.xcworkspace/
+
+# Miscellaneous
+*.log
+*.lock
+*.DS_Store
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Local environment files
+.env
